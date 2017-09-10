@@ -4,7 +4,7 @@
 
 _Now we're in the ring and we are coming for blood._
 
-Web/rajatsharma Static Site Generator made with Hakyll, a Haskell based Static Site Generator
+Web/rajatsharma Generator made with Hakyll, a Haskell based Static Site Generator
 
 ### Install Haskell
 
@@ -27,3 +27,5 @@ _If you want to install Hakyll_
 Currently served at [web/rajatsharma](http://web.rajatsharma.rocks/)
 
 <img src='images/logo.png' align='center' width='400'>
+
+#### Web Generated With <img src='inspirations/haskell.svg' height='20px'>
