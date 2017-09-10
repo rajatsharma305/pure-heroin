@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FullStack JavaScript Developer">
+  <meta name="author" content="Rajat Sharma">
+  <title>Rajat Sharma</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '$ga$', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->
+  <link rel="shortcut icon" href="images/ico/favicon50.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/favicon100.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/favicon100.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/favicon72.png">
+  <link rel="apple-touch-icon-precomposed" href="images/ico/favicon50.png">
+</head>
+<!--/head-->
+
+<body>
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 overflow">
+          <div class="social-icons pull-right">
+            <ul class="nav nav-pills">
+              <li><a href="https://medium.com/@lunasunkaiser" target="_blank"><i class="fa fa-medium"></i></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100003538361953" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/tyrannodrake?trk=hp-identity-name" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/rajatsharma305" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-inverse" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+          <a class="navbar-brand" href="index.html">
+            <h1><img src="images/logo.png" alt="logo"></h1>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+                $if(isHome)$
+                <h3><a href="portfolio.html">Projects</a></h3>
+                $else$
+                <h3><a href="index.html">Home</a></h3>
+                $endif$
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  $body$
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center bottom-separator">
+          <img src="images/home/under.png" class="img-responsive inline" alt="">
+        </div>
+        <section id="map-section">
+          <div class="container">
+            <div id="gmap"></div>
+            <div class="contact-info">
+              <h2>Contacts</h2>
+              <address>
+                                    E-mail: <a href="mailto:rajatsharma034@gmail.com">rajatsharma0720@gmail.com</a> <br>
+                                    Phone: +91 9911890154 <br>
+                                </address>
+              <h2>Address</h2>
+              <address>
+                                    561, Sector-45 <br>
+                                    Gurgaon <br>
+                                </address>
+            </div>
+          </div>
+        </section>
+        <!--/#map-section-->
+        <div class="col-sm-12">
+          <div class="copyright-text text-center">
+            <p>2017 Rajat Sharma </p>
+            <p><a href="https://github.com/rajatsharma305/pure-heroine" target="_blank">Pure Heroine / Made With Haskell</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/#footer-->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
