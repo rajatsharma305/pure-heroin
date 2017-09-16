@@ -1,8 +1,8 @@
-# pure-heroine
+# pure-heroin
 
 <img src='images/home/tour-icon2.png' align='right'>
 
-_Now we're in the ring and we are coming for blood._
+_Diacetylmorphine_
 
 Web/rajatsharma Generator made with Hakyll, a Haskell based Static Site Generator
 
